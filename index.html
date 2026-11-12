@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BigDøg</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header: menu left, logo centre, contact and Instagram right -->
+<header class="site-header">
+  <nav class="navbar navbar-expand-md" aria-label="Main">
+    <div class="container-fluid head-grid px-3 px-md-4">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <a class="navbar-brand" href="#top" aria-label="BigDøg home"><span class="mark" role="img" aria-label="BigDøg"></span></a>
+      <div class="head-right">
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="ig-icon" href="https://www.instagram.com/BigDog_essentials" target="_blank" rel="noopener noreferrer" aria-label="BigDøg on Instagram, @BigDog_essentials">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#hoodies" data-open="hoodies">Hoodies</a></li>
+              <li><a class="dropdown-item" href="#sweaters" data-soon="Sweaters">Sweaters</a></li>
+              <li><a class="dropdown-item" href="#t-shirts" data-soon="T-shirts">T-shirts</a></li>
+              <li><a class="dropdown-item" href="#pants" data-soon="Pants and sweatpants">Pants and sweatpants</a></li>
+              <li><a class="dropdown-item" href="#caps" data-soon="Caps">Caps</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="top">
+  <div class="bg"></div><div class="bg-tone"></div><div class="bg-fade"></div>
+  <h1 class="visually-hidden">BigDøg</h1>
+  <div class="logo" role="img" aria-label="BigDøg logo"><i></i></div>
+  <p class="tag">Clothing for the ones who lead the pack.</p>
+  <div class="cta-row">
+    <a class="btn-line" href="#hoodies" data-open="hoodies">Shop now</a>
+    <a class="btn-line ghost" href="#about">Learn more</a>
+  </div>
+</section>
+
+<!-- Editorial feature blocks -->
+<section class="feature">
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6"><img src="../images/hoodie-2.jpg" alt="Sky blue and sage green BigDøg hoodies, the green one with the BigDøg dog graphic on the back"></div>
+    <div class="col-12 col-md-6"><div class="feature-text">
+      <p class="eyebrow">The collection</p>
+      <h2>Hoodies</h2>
+      <p>Heather gray, sky blue, sage green and mustard, with the BDG chest print or the BIGDOG back print.</p>
+      <div class="cta-row"><a class="btn-line" href="#hoodies" data-open="hoodies">Shop now</a></div>
+    </div></div>
+  </div>
+</section>
+
+<section class="feature flip" id="about">
+  <div class="row g-0 align-items-center">
+    <div class="col-12 col-md-6 order-md-2"><img src="../images/hoodie-1.jpg" alt="Two people in heather gray BigDøg hoodies against a concrete wall"></div>
+    <div class="col-12 col-md-6 order-md-1"><div class="feature-text">
+      <p class="eyebrow">About</p>
+      <h2>BigDøg</h2>
+      <p>Clothing for the ones who lead the pack.</p>
+      <div class="cta-row"><a class="btn-line ghost" href="#contact">Get in touch</a></div>
+    </div></div>
+  </div>
+</section>
+
+<!-- Hoodies: expandable product rail -->
+<section class="hoodies" id="hoodies">
+  <div class="container-fluid px-3 px-md-4">
+    <button class="acc-btn" type="button" data-bs-toggle="collapse" data-bs-target="#hoodie-list" aria-expanded="false" aria-controls="hoodie-list">Hoodies</button>
+    <div class="collapse" id="hoodie-list">
+      <ul class="rail">
+        <li><img src="../images/hoodie-1.jpg" alt="Two people in heather gray BigDøg hoodies, one showing the BDG chest print and one the vertical BIGDOG back print" loading="lazy"><h3>Hoodie 1</h3><span class="sw" style="--c:#b9b9b5" title="Heather gray"></span></li>
+        <li><img src="../images/hoodie-2.jpg" alt="Sky blue BDG hoodie and sage green hoodie with the BigDøg dog graphic on the back" loading="lazy"><h3>Hoodie 2</h3><span class="sw" style="--c:#7fa6cf" title="Sky blue"></span><span class="sw" style="--c:#a9c9a0" title="Sage green"></span></li>
+        <li><img src="../images/hoodie-3.jpg" alt="Gray BIGDOG hoodie, sky blue BDG hoodie and mustard BDG hoodie" loading="lazy"><h3>Hoodie 3</h3><span class="sw" style="--c:#b9b9b5" title="Heather gray"></span><span class="sw" style="--c:#7fa6cf" title="Sky blue"></span><span class="sw" style="--c:#d9a93b" title="Mustard"></span></li>
+        <li><img src="../images/hoodie-4.jpg" alt="Back of a sky blue hoodie with BIGDOG printed vertically" loading="lazy"><h3>Hoodie 4</h3><span class="sw" style="--c:#7fa6cf" title="Sky blue"></span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Coming soon categories -->
+<section class="tiles" aria-label="More categories">
+  <div class="row g-0 row-cols-2 row-cols-md-4">
+    <div class="col"><a class="tile" href="#sweaters" data-soon="Sweaters"><span>Sweaters</span><small>Coming soon</small></a></div>
+    <div class="col"><a class="tile" href="#t-shirts" data-soon="T-shirts"><span>T-shirts</span><small>Coming soon</small></a></div>
+    <div class="col"><a class="tile" href="#pants" data-soon="Pants and sweatpants"><span>Pants and sweatpants</span><small>Coming soon</small></a></div>
+    <div class="col"><a class="tile" href="#caps" data-soon="Caps"><span>Caps</span><small>Coming soon</small></a></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer" id="contact">
+  <div class="container-fluid px-3 px-md-4">
+    <div class="row g-4 py-5">
+      <div class="col-12 col-md-4"><span class="mark foot-mark" role="img" aria-label="BigDøg"></span></div>
+      <div class="col-6 col-md-4">
+        <h2>Shop</h2>
+        <ul class="flinks">
+          <li><a href="#hoodies" data-open="hoodies">Hoodies</a></li>
+          <li><a href="#sweaters" data-soon="Sweaters">Sweaters</a></li>
+          <li><a href="#t-shirts" data-soon="T-shirts">T-shirts</a></li>
+          <li><a href="#pants" data-soon="Pants and sweatpants">Pants and sweatpants</a></li>
+          <li><a href="#caps" data-soon="Caps">Caps</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-4">
+        <h2>Contact</h2>
+        <p class="who">Tyrese</p>
+        <a class="tel" href="tel:+27796315624">079 631 5624</a>
+        <div><a class="ig" href="https://www.instagram.com/BigDog_essentials" target="_blank" rel="noopener noreferrer" aria-label="BigDøg on Instagram, @BigDog_essentials">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></svg>
+          <span>@BigDog_essentials</span></a></div>
+      </div>
+    </div>
+    <p class="copy">&copy; BigDøg</p>
+  </div>
+</footer>
+
+<div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3 soon-wrap">
+  <div id="soon-toast" class="toast soon" role="status" aria-live="polite" aria-atomic="true" data-bs-delay="2800">
+    <div class="toast-body text-center"><b>Coming soon</b><span id="toast-name"></span></div>
+  </div>
+</div>
+
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
